@@ -1,0 +1,41 @@
+{
+  "name": "hello-tsx-storybook",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/webpack-dev-server": "^3.9.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts-ts": "3.1.0",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject",
+    "_To_run_this_project_ use_the_following_command": "Go to terminal and type yarn storybook",
+    "storybook": "yarn run start-storybook -p 4000 -c .storybook"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/preset-typescript": "^7.7.4",
+    "@storybook/core": "^5.2.6",
+    "@storybook/react": "^5.2.6",
+    "@types/jest": "^24.0.23",
+    "@types/node": "^12.12.14",
+    "@types/react": "^16.9.13",
+    "@types/react-dom": "^16.9.4",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.0.6",
+    "html-webpack-plugin": "^3.2.0",
+    "react-docgen-typescript-loader": "^3.6.0",
+    "react-docgen-typescript-webpack-plugin": "^1.1.0",
+    "react-scripts": "^3.2.0",
+    "react-test-renderer": "^16.12.0",
+    "tsconfig-paths-webpack-plugin": "^3.2.0",
+    "typescript": "^3.7.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "type": "module"
+}

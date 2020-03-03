@@ -1,0 +1,45 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "esModuleInterop": true,
+    "jsx": "react",
+    "lib": ["es6", "dom"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "outDir": "./dist/",
+    "rootDir": "./src/",
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "target": "es5",
+    "types": ["anymatch", "jest"]
+  },
+  "awesomeTypescriptLoaderOptions": {
+    "compiler": "typescript",
+    "configFileName": "tsconfig.json",
+    "useCache": true
+  },
+
+  "files": [
+    "src/components/button.stories.tsx",
+    "src/components/Button.tsx",
+    "src/test/components/App.test.tsx"
+  ],
+  "exclude": [
+    "node_modules",
+    "acceptance-tests",
+    "build",
+    "dist",
+    "examples",
+    "jest",
+    "scripts",
+    "src/setupTests.ts",
+    "**/*/*.test.tsx",
+    "webpack"
+  ]
+}
